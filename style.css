@@ -1,0 +1,11 @@
+body { margin:0; padding:24px; background:#0f2a3d; color:#eaf4f8;
+  font-family:"Trebuchet MS",sans-serif; display:flex; justify-content:center; }
+main { width:100%; max-width:520px; }
+form { display:flex; gap:8px; }
+input { flex:1; padding:12px; border-radius:8px; border:none; font-size:1rem; }
+button { padding:12px 18px; border:none; border-radius:8px;
+  background:#ffc857; font-weight:700; cursor:pointer; }
+#card { background:#16384f; border-radius:14px; padding:20px; }
+#temp { font-size:4rem; font-weight:700; margin:0; }
+#status.error { color:#ff8a80; }
+.hidden { display:none; }
